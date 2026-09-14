@@ -6,14 +6,14 @@
   "author": "SwadowMaster",
   "license": "MIT",
   "homepage": "https://github.com/SwadowMaster/omarchy-spotify",
-  "description": "Now-playing widget for Spotify on the Omarchy Quattro bar. Click play/pause, scroll next/previous. Hides when Spotify is idle.",
+  "description": "The track that's on. Click to pause, scroll to skip, gone when Spotify is quiet.",
   "kinds": ["bar-widget"],
   "entryPoints": {
     "barWidget": "BarWidget.qml"
   },
   "barWidget": {
     "displayName": "Spotify",
-    "description": "Spotify track, play/pause, and skip controls.",
+    "description": "Artist and title on the bar. Click play/pause, scroll to skip.",
     "category": "Media",
     "allowMultiple": false,
     "defaultSection": "center"

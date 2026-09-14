@@ -1,8 +1,8 @@
 # Spotify
 
-Now-playing widget for the [Omarchy](https://omarchy.org/) Quattro bar.
+The track that's on. Click to pause, scroll to skip, gone when Spotify is quiet.
 
-Shows the current Spotify track. Click play/pause, scroll or use the mouse buttons to skip. The widget hides when Spotify is idle.
+A now-playing chip for the [Omarchy](https://omarchy.org/) Quattro bar. It only appears while Spotify has something to show, so the bar stays empty the rest of the time.
 
 Plugin id: `io.github.swadowmaster.spotify`
 
