@@ -1,8 +1,8 @@
 # Spotify
 
-The track that's on. Click to pause, scroll to skip, gone when Spotify is quiet.
+The song that's playing, right on the bar.
 
-A now-playing chip for the [Omarchy](https://omarchy.org/) Quattro bar. It only appears while Spotify has something to show, so the bar stays empty the rest of the time.
+Click to pause. Scroll to skip. When Spotify is quiet, the chip is gone — it does not sit there saying nothing. Ads show up as Advertisement, not as whatever junk metadata the player emits.
 
 Plugin id: `io.github.swadowmaster.spotify`
 

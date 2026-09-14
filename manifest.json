@@ -6,14 +6,14 @@
   "author": "SwadowMaster",
   "license": "MIT",
   "homepage": "https://github.com/SwadowMaster/omarchy-spotify",
-  "description": "The track that's on. Click to pause, scroll to skip, gone when Spotify is quiet.",
+  "description": "The song that's playing, on the bar. Click to pause, scroll to skip, gone when it's quiet.",
   "kinds": ["bar-widget"],
   "entryPoints": {
     "barWidget": "BarWidget.qml"
   },
   "barWidget": {
     "displayName": "Spotify",
-    "description": "Artist and title on the bar. Click play/pause, scroll to skip.",
+    "description": "The song that's playing. Click to pause, scroll to skip.",
     "category": "Media",
     "allowMultiple": false,
     "defaultSection": "center"
