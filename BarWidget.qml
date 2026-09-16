@@ -104,18 +104,14 @@ BarWidget {
       else if (buttonCode === Qt.RightButton)
         root.next()
     }
-  }
-
-  WheelHandler {
-    target: button
-    onWheel: function(event) {
-      if (!root.hasTrack)
+    onWheelMoved: function(delta) {
+      if (!root.hasTrack || delta === 0)
         return
-      if (event.angleDelta.y > 0)
-        root.next()
-      else if (event.angleDelta.y < 0)
+      // Match Omarchy media widget: scroll up = previous, scroll down = next
+      if (delta > 0)
         root.previous()
-      event.accepted = true
+      else
+        root.next()
     }
   }
 }

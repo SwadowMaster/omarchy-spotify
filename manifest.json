@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "io.github.swadowmaster.spotify",
   "name": "Spotify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "SwadowMaster",
   "license": "MIT",
   "homepage": "https://github.com/SwadowMaster/omarchy-spotify",

@@ -2,6 +2,8 @@
 
 The song that's playing, right on the bar.
 
+![Plugin preview](Plugin-Preview.png)
+
 Click to pause. Scroll to skip. When Spotify is quiet, the chip is gone — it does not sit there saying nothing. Ads show up as Advertisement, not as whatever junk metadata the player emits.
 
 Plugin id: `io.github.swadowmaster.spotify`
@@ -27,8 +29,8 @@ Controls (only while a track is visible):
 | Input | Action |
 |---|---|
 | Left click | Play / pause |
-| Scroll up or right click | Next track |
-| Scroll down or middle click | Previous track |
+| Scroll up or middle click | Previous track |
+| Scroll down or right click | Next track |
 | Hover | Playing/paused plus the same title |
 
 ## Install
